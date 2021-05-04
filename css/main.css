@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn--pri {
+  background: #01197a;
+  border-radius: 12px;
+  padding: 0;
+  outline-offset: 4px;
+  outline: none;
+  border: none;
+}
+
+.btn--front {
+  display: block;
+  cursor: pointer;
+  padding: 0.75rem 2.625rem;
+  border-radius: 12px;
+  font-weight: 500;
+  color: #F8F8F8;
+  background: #0025B8;
+  transform: translateY(-4px);
+  will-change: transform;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn--pri:hover .btn--front {
+  transform: translateY(-6px);
+  background: #002de2;
+}
+
+.btn--pri:active .btn--front {
+  transform: translateY(-2px);
+}
