@@ -16,7 +16,7 @@ body {
 .btn--front {
   display: block;
   cursor: pointer;
-  padding: 0.75rem 2.625rem;
+  padding: 0.65rem 2.5rem;
   border-radius: 12px;
   font-weight: 500;
   color: #F8F8F8;
